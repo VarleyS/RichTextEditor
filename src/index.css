@@ -12,10 +12,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
   Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 
-  background-color:  rgb(240, 240, 240);
+  background-image: url(https://media-exp1.licdn.com/dms/image/C4D1BAQFpPlhzbQWo0A/company-background_10000/0/1606312213540?e=2159024400&v=beta&t=QF9R4-tvemKBsbx9qPkdFWidvj4GCzSaFQdNvUPR_Ys);
 }
 
 .App{
+  text-align: center;
+  
   color: rgb(17, 17, 17);
 
   max-width: 740px;
@@ -44,5 +46,6 @@ body {
 
 .tooltip-icon-button {
   cursor: pointer;
+
   border: 0;
 }

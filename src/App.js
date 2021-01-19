@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { TextEditor } from './components';
-import './App.css';
+/*import './App.css';*/
 import './index.css';
 
 
