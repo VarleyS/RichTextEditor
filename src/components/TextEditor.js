@@ -21,7 +21,7 @@ const initialValue = Value.fromJSON({
                         object: 'text',
                         leaves: [
                             {
-                                text: 'My first paragraph!',
+                                text: 'Meu primeiro parágrafo!',
                             },
                         ],
                     },
@@ -30,10 +30,12 @@ const initialValue = Value.fromJSON({
         ],
     },
 })
+
 export default class TextEditor extends Component {
     state = {
         value: initialValue,
     }
+
     onChange = ({ value }) => {
         this.setState({ value })
     }
@@ -143,4 +145,3 @@ export default class TextEditor extends Component {
         );      
     }
 }
-
